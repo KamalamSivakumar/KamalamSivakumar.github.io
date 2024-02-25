@@ -4,7 +4,7 @@ Hello there! I'm Kamalam, a passionate coder and a curious learner on a journey 
 
 #### the_lotus_code_list
 
-This section of my GitHub repository is dedicated to my coding blog, where I delve into the intricacies of Python, C++, data manipulation, machine learning algorithms, and much more. Join me in exploring the vast world of programming as we uncover the beauty of code together.
+This section is dedicated to my coding blog, where I delve into the intricacies of Python, C++, data manipulation, machine learning algorithms, and much more. 
 
 #### the_lotus_flair
 
