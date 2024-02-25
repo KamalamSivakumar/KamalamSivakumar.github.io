@@ -1,5 +1,3 @@
-### About Me
-
 Hello there! I'm Kamalam, a passionate coder and a curious learner on a journey through technology. Welcome to my space where I share insights, code snippets, and thoughts on various programming-related topics, machine learning, and beyond.
 
 ### What to Expect
