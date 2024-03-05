@@ -1,4 +1,4 @@
-## hobbies, julie  & julia, and me
+## hobbies, julie & julia, and me
 
 Julie & Julia is one of my favourite movies. It is a breezy, hearty and realistic rom-com, that talks about how intertwined the lives of two women Julie & Julia are. 
 I relate so much to that movie, it's like a warm hug for me. Like Julie, my life has its ups and downs, and I juggle my emotions in phases, proving my beloved paati's  words
