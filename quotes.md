@@ -1,7 +1,12 @@
 ---
 layout: page
-title: Reading List
+title: Quotes
 ---
+
+<blockquote class="green">
+Sometimes it's the very people who no one imagines anything of who do the things no one can imagine.
+- Alan Turing, The Imitation Game.
+</blockquote>
 
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
