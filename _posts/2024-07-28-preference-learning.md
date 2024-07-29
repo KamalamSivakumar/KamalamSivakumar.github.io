@@ -51,11 +51,9 @@ Nuances learnt:
 3. As VADER is mainly trained on social media (tweets/comments etc), it did not classify movie_reviews effectively, tried to compute the VADER scores for each sentence in a movie review, with a compound measure that indicates the normalized or aggregated polarity score for that sentence. The result did come out better. 
 4. Extracted features that can be used to train the ML models, positive scores and compound scores, the feature extraction can also be extended to most frequent words used in a positive/negative review.
 
-References:
-
-https://github.com/cjhutto/vaderSentiment
-
-https://towardsdatascience.com/a-guide-to-text-classification-and-sentiment-analysis-2ab021796317
+References:  
+[VaderSentiment](https://github.com/cjhutto/vaderSentiment)  
+[a-guide-to-text-classification-and-sentiment-analysis](https://towardsdatascience.com/a-guide-to-text-classification-and-sentiment-analysis-2ab021796317)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -78,9 +76,8 @@ Once identified, the polarity scores can either be assigned by employing TextBlo
 
 Spaces for improvement: As of now, in regard with the aspect extraction, only the final occurrence of adj is considered. With regards to assigning polarity scores, non-lexical models can be experimented with. 
 
-References:
-
-https://medium.com/nlplanet/quick-intro-to-aspect-based-sentiment-analysis-c8888a09eda7
+References:  
+[quick-intro-to-aspect-based-sentiment-analysis](https://medium.com/nlplanet/quick-intro-to-aspect-based-sentiment-analysis-c8888a09eda7)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -107,8 +104,7 @@ Nuances learnt:
 2. In order to use CRF for NER, the features must be defined. The following features were considered: the word, the last 3 characters, the last 2 characters, its POS tag, if it’s a digit. Additionally, [BOS] (beginning of a sentence) and [EOS] (end of a sentence) were added as well.
 3. The crf_suite from scikit-learn is easier to implement with, the desired MLE algorithm can be mentioned, and if we need to consider all possible options in the CRF. The model performed quite well, further improvements could be made by extending the feature engineering and fine tuning the hyperparameters.
 
-References:
-
+References:  
 Notebooks on NER from [Dipanjan Sarkar](https://github.com/dipanjanS)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -134,9 +130,8 @@ The model’s performance can be improved by training on appropriate custom anno
 Creating a custom annotated data on a larger scale is a greater task.  
 Understood the general flow of how Custom NER works. 
 
-References:
-
-https://medium.com/@mjghadge9007/building-your-own-custom-named-entity-recognition-ner-model-with-spacy-v3-a-step-by-step-guide-15c7dcb1c416
+References:  
+[building-your-own-custom-named-entity-recognition-ner-model-with-spacy](https://medium.com/@mjghadge9007/building-your-own-custom-named-entity-recognition-ner-model-with-spacy-v3-a-step-by-step-guide-15c7dcb1c416)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -191,7 +186,8 @@ Training procedure for Question-Answering:
 
 p.s I keyboard interrupted the runtime, as I didn't have the resources and time to run the training. 
 
-References: [BERT documentation](https://huggingface.co/docs/transformers/en/model_doc/bert#overview)
+References:  
+[BERT documentation](https://huggingface.co/docs/transformers/en/model_doc/bert#overview)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
