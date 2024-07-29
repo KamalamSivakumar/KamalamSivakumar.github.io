@@ -18,14 +18,10 @@ Tried out preprocessing with both NLTK and spaCy libraries.
 1.	Preprocessing text to remove unnecessary characters.
 2.	Preprocessing text to tokenize, remove stop words and stem/lemmatize.
 
-Used Multinomial NB and a pretrained BERT Model for Text Classification.
-
-For Multinomial NB, used the preprocessed input as TF-IDF vectors and applied Multinomial NB to get the predicitons.
-
-For BERT Model, used the transformers library from huggingface, used the preprocessed input as encoded tensors.
-
-Configured training and classification used “BertForSequenceClassification” which has a linear classification layer, classifying as disaster or not.
-
+Used Multinomial NB and a pretrained BERT Model for Text Classification.  
+For Multinomial NB, used the preprocessed input as TF-IDF vectors and applied Multinomial NB to get the predicitons.  
+For BERT Model, used the transformers library from huggingface, used the preprocessed input as encoded tensors.  
+Configured training and classification used “BertForSequenceClassification” which has a linear classification layer, classifying as disaster or not.  
 Using PyTorch libraries, ran training and validation, to get the predicitons.
 
 Nuances learnt: 
@@ -45,8 +41,7 @@ Learnt about the basics of Sentiment Analysis:
               
 Worked on “Sentiment Analysis, classify a review as positive or negative” problem using Rule based and ML based approaches.
 
-Rule based approach: VADER
-
+Rule based approach: VADER  
 ML based approach: NB Classifier, Logistic Regression and KNN
 
 Nuances learnt:
@@ -76,12 +71,9 @@ ASBA has 3 steps (in an overview):
 3. Associate a polarity to each extracted aspect.
 
 Performing ASBA with spaCy and VADER:  
-With spaCy’s inbuilt language models, it is easier to extract the token’s Part-Of-Speech (POS) tag.
-
-An assumption made: Usually the features of products and services are mostly nouns and compound nouns.
-
-Accordingly, their BOI tags are considered for identifying the “target”/”aspect” and its adjective would be the corresponding “description”/”opinion”.
-
+With spaCy’s inbuilt language models, it is easier to extract the token’s Part-Of-Speech (POS) tag.  
+An assumption made: Usually the features of products and services are mostly nouns and compound nouns.  
+Accordingly, their BOI tags are considered for identifying the “target”/”aspect” and its adjective would be the corresponding “description”/”opinion”.  
 Once identified, the polarity scores can either be assigned by employing TextBlob/VADER libraries. In case of VADER, the threshold for classifying is considered as follows: pos-> > 0.5 & neg-> <=0.5.
 
 Spaces for improvement: As of now, in regard with the aspect extraction, only the final occurrence of adj is considered. With regards to assigning polarity scores, non-lexical models can be experimented with. 
@@ -138,10 +130,8 @@ Commands list that enabled custom NER using spaCy:
 
 The commands can be customised to include parameters to our requirement. References: spaCy Documentation: https://spacy.io/usage/training
 
-The model’s performance can be improved by training on appropriate custom annotated data.
-
-Creating a custom annotated data on a larger scale is a greater task. 
-
+The model’s performance can be improved by training on appropriate custom annotated data.  
+Creating a custom annotated data on a larger scale is a greater task.  
 Understood the general flow of how Custom NER works. 
 
 References:
@@ -207,10 +197,8 @@ References: [BERT documentation](https://huggingface.co/docs/transformers/en/mod
 
 ### [Question-Answering and Text-Generation](https://github.com/KamalamSivakumar/lingoloom_novitiate/blob/main/text-generation%20%26%20question-answering.ipynb)
 
-Question Answering by an llm based on a context. 
-
-Context documents stored as vector databases. 
-
+Question Answering by an llm based on a context.  
+Context documents stored as vector databases.  
 Employing Q&A through text-generation - a work around basically as HuggingFace Pipeline Only supports text-generation, text2text-generation, summarization and translation for now.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
