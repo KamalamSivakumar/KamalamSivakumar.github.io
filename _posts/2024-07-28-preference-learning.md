@@ -203,8 +203,8 @@ Employing Q&A through text-generation - a work around basically as HuggingFace P
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-"Heads-Up and Happy Learning!"  
-Hey there! Just a quick note: I’m sharing these NLP adventures from my personal learning journey, and while I’ve done my best to keep things accurate, I’m still figuring things out. If you spot any slip-ups or have better ideas, don’t hesitate to drop me a line.  
+Heads-Up and Happy Learning! 
+Just a quick note: I’m sharing these NLP adventures from my personal learning journey, and while I’ve done my best to keep things accurate, I’m still figuring things out. If you spot any slip-ups or have better ideas, don’t hesitate to drop me a line.  
 
 For more details and to dive into the projects, check out my github repo [lingo_loom_novitiate](https://github.com/KamalamSivakumar/lingoloom_novitiate).  
 Thanks for reading! 🏵️
