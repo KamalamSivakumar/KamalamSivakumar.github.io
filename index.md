@@ -1,4 +1,4 @@
-### Welcome to the_lotus_blog! 🌷  
+### 🌷  
 I’m a tech enthusiast with a vibrant personality, known for my quirky and cheerful nature.
 
 As someone who learns quickly and never backs down from a challenge, I’m always seeking ways to infuse excitement into my life through both my unique traits and everyday efforts. This blog is one such effort. :)
