@@ -1,6 +1,6 @@
 ## parallel and distributed learning (part 1)
 
-Covers basics of parallel computing and cpu vs gpu.
+Covers basics of parallel computing, processing and cpu vs gpu.
 
 **Serial computing**  
 Instructions/flows are executed sequentially after one another, only one instruction executed at any moment in time.
