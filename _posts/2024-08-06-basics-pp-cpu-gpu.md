@@ -1,4 +1,4 @@
-## parallel and distributed learning | part 1
+## parallel and distributed learning (part 1)
 
 Covers basics of parallel computing and cpu vs gpu.
 
