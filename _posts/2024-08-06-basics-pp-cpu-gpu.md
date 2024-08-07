@@ -14,8 +14,8 @@ To enable parallel computing, the problem at hand must be:
   2. execute multiple instructions at any moment in time.
 
 Assumption: You own a watch manufacturing company and the components you manufacture include dial, strap and the clasp. When it comes to manufacturing these parts, you have two approaches to consider:  
-1. Serial Computing: Manufacture each component one by one. First the dial, then the strap, then the clasp, before assembling the watch. This is slower as each step depends on the previous one.  
-2. Parallel Computing: Manufacture all components simultaneously and then assemble them, speeding up production by completing tasks concurrently.
+1. Serial: Manufacture each component one by one. First the dial, then the strap, then the clasp, before assembling the watch. This is slower as each step depends on the previous one.  
+2. Parallel: Manufacture all components simultaneously and then assemble them, speeding up production by completing tasks concurrently.
 
 **Parallel processing vs Parallel computing**  
 **computing** considers the processor aspect, concerned with the physical architecture and how to use multiple processors effectively.  
