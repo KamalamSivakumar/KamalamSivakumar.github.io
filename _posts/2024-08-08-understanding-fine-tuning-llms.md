@@ -3,7 +3,9 @@
 Starts with rlhf, this series of blog posts that would cover my notes about preference learning methods.
 
 **RLHF: Reinforcement Learning based on Human Feedback**  
-**Motivation**: better evaluation leads to better fine-tuning and thus better results. Existing evaluation methods such as [BLEU](https://en.wikipedia.org/wiki/BLEU) and [ROUGE](https://en.wikipedia.org/wiki/ROUGE_(metric)) use algorithms that look at rules and metrics based on parts of sentences, like unigrams and bigrams.  
+**Motivation**: better evaluation leads to better fine-tuning and thus better results.  
+Existing evaluation methods such as [BLEU](https://en.wikipedia.org/wiki/BLEU) and [ROUGE](https://en.wikipedia.org/wiki/ROUGE_(metric)) use algorithms that look at rules and metrics based on parts of sentences, like unigrams and bigrams.  
+how about fine-tuning based on feedback from humans?  
 **Basic Idea**: pre-train the model --> build reward model based on human feedback --> fine-tune with reinforcement learning  
 **My understanding of how it works**:  
 **(pre-trained model)**  
