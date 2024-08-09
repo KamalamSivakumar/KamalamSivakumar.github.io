@@ -23,7 +23,9 @@ Reward language models need to have similar capacity to understand the text give
 Using RL to optimize the language model with respect to the reward model.  
 What multiple organizations seem to have gotten to work is fine-tuning some or all of the parameters of a copy of the initial language model with a policy-gradient RL algorithm (will explain it below), [Proximal Policy Optimization (PPO)](https://huggingface.co/blog/deep-rl-ppo). 
 Some parameters of the language model are frozen because fine-tuning an entire 10B or 100B+ parameter model is really expensive, even for mammoth organisations. (lora comes into play here, will explore it in a separate post)  
-**policy**: mapping from perceived states of the environment to actions to be taken (in our case the language model taking in a sequence of texts and giving a sequence of texts. (basically giving the probability distributions over the text))  
+**policy**: mapping from perceived states of the environment to actions to be taken.  
+A set of rules or strategies that the algorithm uses to make decisions.  
+(in our case the language model taking in a sequence of texts and giving a sequence of texts. (basically giving the probability distributions over the text))  
 **action space/states**: the set of all valid actions, or choices, available to an agent as it interacts with an environment (in our case the all possible tokens)  
 **observation space**: the set of all valid inferences available to an agent based on its action space/state (in our case distribution of possible input token sequences)  
 **context of reward function**: for the agent to learn an optimal, or nearly-optimal, policy that maximizes the "reward function" (in our case learn to respond like humans)  
