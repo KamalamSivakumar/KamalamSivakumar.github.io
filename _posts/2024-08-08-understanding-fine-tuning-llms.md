@@ -12,7 +12,6 @@ A model that's already fine-tuned to some extent can enhance the rlhf fine-tunin
 
 **(sft)**  
 Generating the reward model involves numerically representing human preferences, i.e., should take in a response and give a metric that resonates human preference.  
-The reward being scalar is crucial for integrating it to the model's fine-tuning.  
 The reward model may be a language model attuned to preferences or a language model pre-trained just on preferred data.  
 (prompt, response) is needed to build the reward model. Human annotators are used to rank the generated responses from the language models. (Rank instead of score, cause the reward model would then become very noisy/varied, making it very sensitive. Rank to get a regularized dataset.)  
 Different methods of ranking are normalized into a scalar reward signal for training. (example method of ranking: [Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system), ranking relatively based on responses from 2 language models for the same prompt.) (interesting this elo system is, read it!)  
