@@ -35,7 +35,7 @@ In multiple papers from OpenAI, Anthropic, and DeepMind, this penalty has been d
 The KL divergence term penalizes the RL policy from moving substantially away from the initial pre-trained model with each training batch, which can be useful to make sure the model outputs reasonably coherent text snippets. Without this penalty the optimization can start to generate text that is gibberish but fools the reward model to give a high reward. (hallucinations handled? yep.)  
 The final reward is: r - kl_coeff*r_kl (r_kl --> kl penalty, kl_coeff --> scale of the kl penalty (hyperparam))  
 
-Finally, update rule: PPO that maximizes the reward metrics in the current batch of data  
+Finally, update rule: PPO that maximizes the reward metrics in the current batch of data.  
 PPO is on-policy, which means the parameters are only updated with the current batch of prompt-generation pairs.  
 PPO uses constraints on the gradient to ensure the update step does not destabilize the learning process.  
 RLHF can continue iteratively updating the reward model and the policy together. As the RL policy updates, users can continue ranking these outputs versus the model's earlier versions.
