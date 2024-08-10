@@ -1,4 +1,4 @@
-## parallel and distributed learning (part 2) | cuda programming using cpp
+## parallel and distributed learning (part 2) [ cuda programming using cpp ]
 
 Notes on CUDA programming basics.
 
