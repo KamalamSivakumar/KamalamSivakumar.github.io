@@ -28,7 +28,7 @@ shift between CPU and GPU. (e.g., every page in the arrays is written by the CPU
 2. Run the kernel many times and look at the average and minimum run times.
 3. Prefetch the data to GPU memory before running the kernel.
 
-**to free data**: pass the pointer to cudafree()  
+**to free data**: pass the pointer to cudaFree()  
 
 ```
 //memory allocation on unified memory
