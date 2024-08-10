@@ -1,4 +1,4 @@
-## parallel and distributed learning (part 2) [ cuda programming using cpp ]
+## parallel and distributed learning (part 2) [cuda programming using cpp]
 
 Notes on CUDA programming basics.
 
@@ -43,7 +43,7 @@ cudaFree(y);
 ```
 
 **launch kernel**: basically invoking the function on GPU  
-CUDA kernel launches are specified using the triple angle bracket syntax <<< >>>  
+CUDA kernel launches are specified using the triple angle bracket syntax ```<<< >>>```  
 e.g., to launch the add kernel  
 ```
 add<<<1, 1>>>(N, x, y);
