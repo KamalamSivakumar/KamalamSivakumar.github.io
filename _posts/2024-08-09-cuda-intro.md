@@ -19,8 +19,7 @@ void add(int n, float *x, float *y){
 single memory address space accessible from any processor in a system.  
 allows applications to allocate data that can be read or written from code running on either CPUs or GPUs.  
 facilitated by **cudaMallocManaged()** (similar to malloc()): allocation function that returns a pointer accessible from any processor.  
-cuda managed data: when code running on a CPU or next notes GPU accesses data allocated by cudaMallocManaged()  
-memory populated on access to the variable.  
+cuda managed data: automatically manages data migration between the CPU and GPU memory, allowing both processors to access the same data seamlessly without explicit data transfers, when using cudaMallocManaged()    
 **page migrations**:  
 shift between CPU and GPU. (e.g., every page in the arrays is written by the CPU, and then accessed by the CUDA kernel on the GPU, causing the kernel to wait on a lot of page migrations)  
 
