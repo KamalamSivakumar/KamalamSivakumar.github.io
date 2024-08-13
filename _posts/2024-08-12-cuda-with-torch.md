@@ -7,7 +7,9 @@ firstly, determine if there is a need to use gpu.
 [torch.cuda.device](https://pytorch.org/docs/stable/generated/torch.cuda.device.html#torch.cuda.device): context manager that changes the selected device (torch.device('cuda'))  
 
 Cross-GPU operations are not allowed by default. i.e, device specific operations.  
-manage tensors on specific devices using methods like: [to](https://pytorch.org/docs/stable/generated/torch.Tensor.to.html)(tensor dtype/device conversion), [cuda](https://pytorch.org/docs/stable/cuda.html)(transfer models from cpu to gpu, enabling the use of gpu acceleration for faster computation)  
+manage tensors on specific devices using methods like:  
+[to](https://pytorch.org/docs/stable/generated/torch.Tensor.to.html)(tensor dtype/device conversion),  
+[cuda](https://pytorch.org/docs/stable/cuda.html)(transfer models from cpu to gpu, enabling the use of gpu acceleration for faster computation)  
 upon calling just "cuda()" transfers tensor to "cuda(cuda:0)" (specify different gpu's based on your available devices)  
 always better to check if the gpu is available before switching using "torch.cuda.is_available()"  
 .copy() --> copies the content of one tensor to another. It can handle copying between different devices.  '
