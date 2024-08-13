@@ -1,4 +1,4 @@
-## parallel and distributed learning (part 2) [cuda programming using torch]
+## parallel and distributed learning (part 2.1) [cuda programming using torch]
 
 This covers the notes, implementation will be on the next post.
 
