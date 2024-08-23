@@ -12,3 +12,6 @@ Life is full of twists and turns, and the decisions we make shape our destiny mo
 <blockquote class="green">
 Problems don’t always get harder as you grow. Solutions become less clear. - Andy Greenwell, SWE-3, Wayfair
 </blockquote>
+<blockquote class="green">
+Experience is experience, so I consider exaggerated truth to still be the truth. - Sriram Priyadharshan, Research Engineer, UMich
+</blockquote>
