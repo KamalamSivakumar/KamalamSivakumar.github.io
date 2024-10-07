@@ -4,6 +4,7 @@ This post is about the batched bandit problem, as background research.
 All of this is part of my ongoing effort to fully grasp the concepts presented in the pre-print. [Sarvesh Gharat et al](https://arxiv.org/abs/2408.14195)
 
 **Bandit problem**:  
+[multi-armed-bandit repo](https://github.com/KamalamSivakumar/Multi-arm-Bandit)  
 It's named after the scenario where a gambler faces a row of slot machines/arms (or "one-armed bandits") and must decide which machine/arm to play (or "pull") to maximize their total reward over time.  
 The point of bandit algorithms is to balance exploring the possible actions and then exploiting actions that appear promising.  
 
