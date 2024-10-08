@@ -31,9 +31,6 @@ Attaching notes.
 The difference between the batched bandit and the regular bandit is when the agent is allowed to update the policy.  
 Wait until the end of the batch to update the agent's policy.  
 
-More to learn on this:  
-Minimax Grid, Geometric Grid, Batched Successive Elimination (BaSE), How all of this is applied?
-
 **References**:  
 [Batched bandit problems - Perchet et al](https://spia.princeton.edu/system/files/research/documents/Chassang_Batched%20Bandit%20Problems.pdf)  
 [Batched bandit problems - Sean Smith Medium blog](https://towardsdatascience.com/batched-bandit-problems-ea73dba5da7a)
