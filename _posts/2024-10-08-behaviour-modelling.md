@@ -36,6 +36,3 @@ While both are related to probabilistic models, MDPs focus on decision-making, w
 --in my opinion, all of the above fall under the umbrella of "ai", in addition I'd also say game theory, tradeoffs as well.  
 --modeling—whether it involves uncertainty or not—is fundamental to ai.  
 --ignoring all the jargons, at a fundamental level, everything we aim to achieve can be categorized as a constraint optimization problem, which can further be viewed as mathematical modeling or stochastic modeling when probabilities come into play.
-
-**References**:
-[Course Structure and Reference books mentioned](https://www.psgtech.edu/educms/sorces/AMC/progregs/M.Sc(DS)-2015-Regulations.pdf)
