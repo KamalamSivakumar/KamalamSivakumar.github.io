@@ -20,5 +20,5 @@ It’s such a real reflection of how things work out.
 Also! Jeffrey Archer beautifully writes about the characters' love life, how love unfolds in its own space, time, and pace. It's so heartwarming! and feels seamless and genuine—like a low-maintenance, totally heartwarming transition.
 Even though I haven’t had as dramatic experiences, reading about them makes me feel kushi about my own love and love life.
 
-I can't wait to finish the 5th book.
+I can't wait to finish the 5th book.  
 Will write a separate blog post about the characters and instances that resonated so much with me.
