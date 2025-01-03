@@ -12,3 +12,6 @@ title: Siren Songs of Tech
 ### Episode 2: Discussion on the Current Landscape of AI Technologies  
 🌐 The AI landscape is shifting rapidly, and in this episode, we explore the current state of AI technologies, and how different industries are leveraging AI to drive innovation. We also touch on ethical considerations and the future directions we’re excited about. This episode offers a comprehensive overview of the current AI landscape and its potential future directions.  
 👉 [Episode 2](https://www.youtube.com/live/56p9QDIWmAM?feature=shared)  
+
+---  
+*Podcast by Ram and Kam*  
