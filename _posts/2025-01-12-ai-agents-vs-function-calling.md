@@ -1,6 +1,6 @@
 ## ai agents and function-calling
 
-I recently saw this meme on LinkedIn [here](https://www.linkedin.com/posts/hamelhusain_dont-repeat-this-mistake-you-have-been-activity-7273119135293710336-SnEj?utm_source=share&utm_medium=member_desktop)
+I recently saw this meme on LinkedIn [here](https://www.linkedin.com/posts/hamelhusain_dont-repeat-this-mistake-you-have-been-activity-7273119135293710336-SnEj?utm_source=share&utm_medium=member_desktop),
 
 ![image](https://github.com/user-attachments/assets/2eac474f-4fca-4c80-9b72-de7045757012)
 
