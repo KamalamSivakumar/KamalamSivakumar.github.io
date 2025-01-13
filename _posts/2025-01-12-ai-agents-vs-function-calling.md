@@ -23,4 +23,4 @@ The modification part is the agentic approach's nuance. Now, if you're just usin
 Quoting Occam's Razor: "Explanations that posit fewer entities, or fewer kinds of entities, are to be preferred to explanations that posit more."  
 In other words, if an agentic approach introduces unnecessary complexity without offering significant benefits, it might be more efficient to opt for a simpler solution, like function calling.
 
-I might have perceived the meme incorrectly, which led to this post, but hey, I thought I'd share anyway!
+This is very trivial yes, but hey, I thought I'd share anyway!
