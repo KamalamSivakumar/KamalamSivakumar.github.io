@@ -8,7 +8,7 @@ I do have something to say about the right part of the post.
 
 In my opinion, the agentic approach definitely includes function calling. It's not entirely different.  
 
-While the author of the post seems to convey the similar notion, the meme, however, suggests that AI agents and function calling differ a lot. Sure, agents sound cooler than function calling. :P  
+While the author of the post seems to convey the similar notion, the meme, however, suggests that AI agents and function calling differ much. Sure, agents sound cooler than function calling. :P  these jargons! :/
 
 Function calling involves configuring and giving the llm the configuration.  
 Agents, on the other hand, are about more orchestration—API calls, aka function calls, decision-making, and deciding how the processing should unfold next.
