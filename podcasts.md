@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Siren Songs of Tech
+title: Toast & Butter
 ---
 
 #### [Episode 1: Our Background and Experience with AI/ML](https://www.youtube.com/watch?v=56p9QDIWmAM) 
@@ -15,6 +15,12 @@ title: Siren Songs of Tech
 
 
 ---  
+
+
+#### [Episode 3: Embarrasment is an underexplored emotion - Austin Butler](https://www.youtube.com/watch?v=D-IsRi_w_Dw)  
+💭 This episode explores what it means to feel embarrassed and still show up anyway.
+
+--- 
 
 
 *Podcast by Ram and Kam*  
